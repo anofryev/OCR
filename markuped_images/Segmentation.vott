@@ -1,0 +1,70 @@
+{
+    "name": "Segmentation",
+    "securityToken": "Segmentation Token",
+    "sourceConnection": {
+        "name": "main",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTZjMDBlOWZkYzdhNDY3ZTBlMGFlNDFiNGUyN2JmZGFmYjgyZWY4ODFiM2E3ODQ3ZTc1YzQ3YjY5M2E1YWEzN2NlNTQ2MDFkZmE4MTQ4OTVjZjFhMGMyZDZmMjEwMzNjNjhhZWE0MDc0YWJjMjFiMWRhZjhlMTkzOGNiY2RhYWQ3YTQ0NzdlNGM2N2Q3MzI3NzYxNWViZDBjMjc5N2NmNmUxYjc2ODhiMTUzMTc0MjUwMGEwMzAyNGQ1YWJiNjY1IiwiaXYiOiIzYzBkMzVhZWQzMTkyYzMzNmU3ZWI5MGNhMjRkNjEyZjRmOWFlNzQxMzA4MDA0ZTcifQ=="
+        },
+        "id": "fw3Mr2EYV"
+    },
+    "targetConnection": {
+        "name": "main",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjNiZmM3YTg5MzU5MGNjMmU5MWJlYjhiNGQxZmIyY2NmZDUzZTU0MDZkYWRhMzNhYzRlNzBmNWU3ZTcwMGYzN2FiMjI5OTcwMDA2MWE2NjJhYTBhMzc5YTNjY2YxOWE0ODM0ZDgxNzBiZmVmZDU3MmM1YjAxNGRkYWUzODNiZGIxNDdhZDZhNjNlYjczODhiMzFlMTQzNDJmNWU5NjM4NCIsIml2IjoiOTBhOTk1ODA0MjExMzE3NDlkYTU4ZDIzYTE3NGI5ODg2ODU5ZmQ4M2I1Njg5MzU1In0="
+        },
+        "id": "-uXLgndTF"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "text",
+            "color": "#5db300"
+        }
+    ],
+    "id": "YDJ4aVP3u",
+    "activeLearningSettings": {
+        "modelPathType": "coco",
+        "autoDetect": true,
+        "predictTag": true
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTkzMzFlZTA2MzE2ZDM2YWNiNzJjY2EzZWQ3YTEyZWU3MzhkZWE3M2FjNGI5ZDE2N2M2ODc0MDJmMzY5ZWQzNjI5Mjk1YTc5OWYyYWEwNmI3MjNhYTkxMzgxZmVmZmI2IiwiaXYiOiI1OTYzMDNkMjk5MjZhYmY4YjgzYzg1YTBiN2YyMmM1Y2FiNTU0ZmQ0MmI1Nzk0ZTQifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "d24b4edcc526efc70b1eca70e841f666",
+    "assets": {
+        "d24b4edcc526efc70b1eca70e841f666": {
+            "format": "jpeg",
+            "id": "d24b4edcc526efc70b1eca70e841f666",
+            "name": "aug_0_2191.jpeg",
+            "path": "file:C:/Users/Alex/4jupyter/OCR/Text%20segmentation/images_4_augment/aug_0_2191.jpeg",
+            "size": {
+                "width": 4305,
+                "height": 3399
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "693d69523f89cd0e981d215fe627f7b2": {
+            "format": "jpeg",
+            "id": "693d69523f89cd0e981d215fe627f7b2",
+            "name": "aug_0_2543.jpeg",
+            "path": "file:C:/Users/Alex/4jupyter/OCR/Text%20segmentation/images_4_augment/aug_0_2543.jpeg",
+            "size": {
+                "width": 4305,
+                "height": 3399
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}

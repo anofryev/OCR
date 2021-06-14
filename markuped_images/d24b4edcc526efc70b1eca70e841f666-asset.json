@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpeg",
+        "id": "d24b4edcc526efc70b1eca70e841f666",
+        "name": "aug_0_2191.jpeg",
+        "path": "file:C:/Users/Alex/4jupyter/OCR/Text%20segmentation/images_4_augment/aug_0_2191.jpeg",
+        "size": {
+            "width": 4305,
+            "height": 3399
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "XPnJrhjgB",
+            "type": "RECTANGLE",
+            "tags": [
+                "text"
+            ],
+            "boundingBox": {
+                "height": 99.85756851454913,
+                "width": 276.4413544007368,
+                "left": 995.6813462681595,
+                "top": 841.1085331803661
+            },
+            "points": [
+                {
+                    "x": 995.6813462681595,
+                    "y": 841.1085331803661
+                },
+                {
+                    "x": 1272.1227006688964,
+                    "y": 841.1085331803661
+                },
+                {
+                    "x": 1272.1227006688964,
+                    "y": 940.9661016949152
+                },
+                {
+                    "x": 995.6813462681595,
+                    "y": 940.9661016949152
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
