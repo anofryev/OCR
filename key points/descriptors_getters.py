@@ -23,10 +23,10 @@ def get_sift_descriptors(img):
 
 
 def get_star_brief_descriptors(img):
-    star = cv2.xfeatures2d.StarDetector_create(maxSize = 45, #45 
-                                               responseThreshold=30,#30
-                                               lineThresholdProjected=10,
-                                               lineThresholdBinarized=8,
+    star = cv2.xfeatures2d.StarDetector_create(maxSize = 13, #45 
+                                               responseThreshold=15,#30
+                                               lineThresholdProjected=20,#10 best 20
+                                               lineThresholdBinarized=8, #8 
                                                suppressNonmaxSize=5)
     brief = cv2.xfeatures2d.BriefDescriptorExtractor_create()
     kp = star.detect(img, None)
@@ -35,7 +35,7 @@ def get_star_brief_descriptors(img):
     return kp, des
     
 def get_orb_descriptors(img):
-    orb = cv2.ORB_create(nfeatures = 500,
+    orb = cv2.ORB_create(nfeatures = 200,
                         scaleFactor = 1.2,
                         nlevels = 8,
                         edgeThreshold = 31,
