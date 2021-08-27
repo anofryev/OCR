@@ -36,7 +36,7 @@ def get_star_brief_descriptors(img):
     
 def get_orb_descriptors(img):
     orb = cv2.ORB_create(nfeatures = 200,
-                        scaleFactor = 1.2,
+                        scaleFactor = 1.5,#1.2
                         nlevels = 8,
                         edgeThreshold = 31,
                         firstLevel = 0,
