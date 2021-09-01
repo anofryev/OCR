@@ -34,15 +34,24 @@ def get_star_brief_descriptors(img):
 
     return kp, des
     
-def get_orb_descriptors(img):
-    orb = cv2.ORB_create(nfeatures = 200,
+def get_orb_descriptors(img,
+			nfeatures = 200,
                         scaleFactor = 1.5,#1.2
                         nlevels = 8,
                         edgeThreshold = 31,
                         firstLevel = 0,
                         WTA_K = 2,
                         patchSize = 31,
-                        fastThreshold = 20)
+                        fastThreshold = 20
+			):
+    orb = cv2.ORB_create(nfeatures = nfeatures,
+                        scaleFactor = scaleFactor,#1.2
+                        nlevels = nlevels,
+                        edgeThreshold = edgeThreshold,
+                        firstLevel = firstLevel,
+                        WTA_K = WTA_K,
+                        patchSize = patchSize,
+                        fastThreshold = fastThreshold)
     kp = orb.detect(img,None)
     kp, des = orb.compute(img, kp)
     
